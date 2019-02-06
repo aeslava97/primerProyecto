@@ -1,0 +1,98 @@
+.navbar{
+	position: fixed;
+	height: 80px;
+  	z-index: 100;
+  	width: 100%;
+}
+.row .col-auto{
+	padding-bottom: 20px;
+}
+#titulo-de-imagen{
+	position: relative;
+}
+div[my-text*=student]{
+	color: rgb(102,119,136);
+}
+.container{
+	width: 656px;
+	margin: 0 auto;
+	padding: 75px;
+	position: relative;
+	display: block;
+	text-align: center;
+}
+.container-fluid{
+	margin: 0 auto;
+	padding: 75px;
+	position: relative;
+	display: block;
+	text-align: center;
+}
+hr{
+	border: 1px solid black;
+}
+/**
+*cosas del banner
+*/
+#banner-grande{
+	position: relative;
+	text-align: center;
+	padding-top: 100px;
+
+}
+#banner{
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-position: 100% 100%;
+    min-height: 0px;
+	padding-top: 250px;
+    padding-bottom: 270px;
+    background-image: url("../images/banner.jpeg");
+}
+#letra-banner{
+	position: absolute;
+  	color: 	white;
+  	top: 40%;
+  	left: 38%;
+}
+/**
+*cosas de la parte 2
+*/
+#parte2{
+	background-color: rgb(238, 238, 238);
+}
+#img2{
+	height: 280px;
+}
+div[my-text2*=try]{
+	padding-top: 10px;
+	color: rgb(102, 119, 136);
+}
+/**
+*cosas de la parte 3
+*/
+
+/**
+*cosas de la parte 4
+*/
+#parte4{
+	background-color: rgb(238, 238, 238);
+}
+#img1{
+	width: auto;
+	height: 300px;
+}
+.footer {		
+ 	background: #061D25;
+ 	padding: 0px;	
+}
+.footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  transition: all .5s ease;
+}
+.footer a:hover {
+  color: white;
+}
